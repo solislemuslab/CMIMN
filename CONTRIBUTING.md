@@ -13,12 +13,6 @@ If you encounter a bug, experience a failed function, or have a feature request,
 - The actual result.
 - Additional notes, such as potential reasons why you think the issue is occurring or things you tried that did not work.
 
-## Contributing Code
 
-If you would like to contribute code to CMIMN, please do so by submitting a pull request. We encourage all contributions to be made against the development branch of the repository.
-
-### Steps for Contributing Code:
-1. **Fork the CMIMN repository** to your GitHub account.
-2. **Clone your fork** to your local machine using:
 
 
