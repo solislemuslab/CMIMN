@@ -2,7 +2,6 @@
 [![GitHub license](https://img.shields.io/github/license/solislemuslab/CMIMN?color=yellow)](https://github.com/solislemuslab/CMIMN/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/solislemuslab/CMIMN)](https://github.com/solislemuslab/CMIMN/issues)
 ![Code Size](https://img.shields.io/github/languages/code-size/solislemuslab/CMIMN?color=white)
-#[![GitHub Releases](https://img.shields.io/github/v/release/solislemuslab/CMIMN?display_name=tag)](https://github.com/solislemuslab/CMIMN/releases)
 [![GitHub Contributors](https://img.shields.io/github/contributors/solislemuslab/CMIMN)](https://github.com/solislemuslab/CMIMN/graphs/contributors)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/solislemuslab/CMIMN)
 
