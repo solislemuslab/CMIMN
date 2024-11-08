@@ -53,3 +53,22 @@ result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ## Reporting Issues and Asking Questions
 
 If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub [issue tracker](https://github.com/solislemuslab/CMIMN/issues). 
+
+## Citation
+
+If you use CMIMN in your work, we kindly ask that you cite the following paper:
+
+```bibtex
+@article{aghdam2024,
+  year = {2024},
+  publisher = {In process},
+  author = {Rosa Aghdam, Shan Shan, Richard Lankau and Claudia Solis-Lemus},
+  title = {Leveraging Machine Learning and Enhanced Network-based methods in Potato Disease Interactions}
+}
+@article{aghdam2024_2,
+  year = {2024},
+  publisher = {In process},
+  author = {Rosa Aghdam and Claudia Solis-Lemus},
+  title = {CMiNet: R package for learning the Consensus Microbiome Network Algorithm}
+} 
+```
