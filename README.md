@@ -50,3 +50,6 @@ The function returns a list with the following components:
 ```bash CMIMN
 result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ```
+## Reporting Issues and Asking Questions
+
+If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub [issue tracker](https://github.com/solislemuslab/CMIMN/issues). 
