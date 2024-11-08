@@ -28,6 +28,19 @@ data = amgut1.filt
 - q2: A numeric value representing the quantile threshold for filtering edges in the order 1 adjacency matrix.
 - quantitative: A logical value indicating if the data is quantitative. If TRUE, the data is log-transformed.
 
-```bash
-result <- conditional_MI(quantitative = TRUE, q1 = 0.7, q2 = 0.95)
+## Return Value
+The function returns a list with the following components:
+
+- G_order0: The adjacency matrix after order 0 calculation.
+- G_order1: The adjacency matrix after order 1 calculation.
+- Gval_order0: The CMI values for each taxa pair in the order 0 adjacency matrix.
+- Gval_order1: The CMI values for each taxa pair in the order 1 adjacency matrix.
+- quantile_order0: The quantile threshold used for filtering the order 0 adjacency matrix.
+- quantile_order1: The quantile threshold used for filtering the order 1 adjacency matrix.
+- sum_order0: The sum of edges in the order 0 adjacency matrix.
+- sum_order1: The sum of edges in the order 1 adjacency matrix.
+
+## Running 
+```bash CMIMN
+result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ```
