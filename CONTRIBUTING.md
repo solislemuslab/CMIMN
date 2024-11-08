@@ -4,7 +4,7 @@ Thank you for your interest in contributing to CMIMN! We appreciate your support
 
 ## Reporting Issues and Asking Questions
 
-If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub issue tracker. Before creating a new issue, please search existing issues (both open and closed) to see if your question has already been addressed.
+If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub [issue tracker](https://github.com/solislemuslab/CMIMN/issues). Before creating a new issue, please search existing issues (both open and closed) to see if your question has already been addressed.
 
 ### When Reporting a Bug, Please Include:
 - A quick background/summary of the issue.
