@@ -6,7 +6,7 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/solislemuslab/CMIMN)](https://github.com/solislemuslab/CMIMN/graphs/contributors)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/solislemuslab/CMIMN)
 
-\texttt(CMIMN) is an R package designed to construct microbiome networks using conditional mutual information (CMI) to identify relationships between taxa. The package applies two levels of CMI computation, using quantile thresholds to filter edges in the resulting adjacency matrices, facilitating robust microbial interaction analysis.
+CMIMN is an R package designed to construct microbiome networks using conditional mutual information (CMI) to identify relationships between taxa. The package applies two levels of CMI computation, using quantile thresholds to filter edges in the resulting adjacency matrices, facilitating robust microbial interaction analysis.
 
 
 ## Table of Contents
