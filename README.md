@@ -54,6 +54,11 @@ result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 
 If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub [issue tracker](https://github.com/solislemuslab/CMIMN/issues). 
 
+## License
+
+CMIMN is licensed under the [GNU General Public License v3.0 (GPL-3)](https://www.gnu.org/licenses/gpl-3.0.html). &copy; Solis-Lemus Lab (2024).
+
+
 ## Citation
 
 If you use CMIMN in your work, we kindly ask that you cite the following paper:
