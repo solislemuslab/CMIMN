@@ -73,6 +73,6 @@ If you use CMIMN in your work, we kindly ask that you cite the following paper:
   year = {2024},
   publisher = {In process},
   author = {Rosa Aghdam and Claudia Solis-Lemus},
-  title = {CMiNet: R package for learning the Consensus Microbiome Network Algorithm}
+  title = {CMiNet: R package for learning the Consensus Microbiome Network}
 } 
 ```
