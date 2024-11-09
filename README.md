@@ -11,6 +11,7 @@ CMIMN is an R package designed to construct microbiome networks using conditiona
 ## Table of Contents
 - [Installation](#installation)
 - [Running CMIMN Package](#Running-CMIMN-Package)
+- [Example](#example)
 
 ## Installation
 ```bash
@@ -27,13 +28,13 @@ First, load CMIMN and the American Gut Project data (included with the [SpiecEas
 library(CMIMN)
 data = amgut1.filt
 ```
-## Parameters
+### Parameters
 - data: A numeric matrix where rows represent taxa and columns represent samples. If quantitative is TRUE, data will be log-transformed.
 - q1: A numeric value representing the quantile threshold for filtering edges in the order 0 adjacency matrix.
 - q2: A numeric value representing the quantile threshold for filtering edges in the order 1 adjacency matrix.
 - quantitative: A logical value indicating if the data is quantitative. If TRUE, the data is log-transformed.
 
-## Return Value
+### Return Value
 The function returns a list with the following components:
 
 - G_order0: The adjacency matrix after order 0 calculation.
@@ -45,7 +46,7 @@ The function returns a list with the following components:
 - sum_order0: The sum of edges in the order 0 adjacency matrix.
 - sum_order1: The sum of edges in the order 1 adjacency matrix.
 
-## Running 
+## Example 
 ```bash CMIMN
 result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ```
