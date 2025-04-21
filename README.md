@@ -76,16 +76,18 @@ If you use CMIMN in your work, we kindly ask that you cite the following paper:
   publisher={Springer}
 }
 
-@article{aghdam2024,
-  year = {2024},
-  publisher = {In process},
-  author = {Rosa Aghdam, Shan Shan, Richard Lankau and Claudia Solis-Lemus},
-  title = {Leveraging Machine Learning and Enhanced Network-based methods in Potato Disease Interactions}
+@article{aghdam2025leveraging,
+  title={Leveraging Bayesian Networks for Consensus Network Construction and Multi-Method Feature Selection to Decode Disease Prediction},
+  author={Aghdam, Rosa and Shan, Shan and Lankau, Richard and Solis-Lemus, Claudia},
+  journal={bioRxiv},
+  pages={2025--04},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
 }
-@article{aghdam2024_2,
-  year = {2024},
-  publisher = {In process},
-  author = {Rosa Aghdam and Claudia Solis-Lemus},
-  title = {CMiNet: R package for learning the Consensus Microbiome Network}
+@article{aghdam2024cminet,
+  title={CMiNet: R package for learning the Consensus Microbiome Network},
+  author={Aghdam, Rosa and Solis-Lemus, Claudia},
+  journal={arXiv preprint arXiv:2411.08309},
+  year={2024}
 } 
 ```
