@@ -64,6 +64,18 @@ CMIMN is licensed under the [GNU General Public License v3.0 (GPL-3)](https://ww
 If you use CMIMN in your work, we kindly ask that you cite the following paper:
 
 ```bibtex
+
+@article{aghdam2024human,
+  title={Human limits in machine learning: prediction of potato yield and disease using soil microbiome data},
+  author={Aghdam, Rosa and Tang, Xudong and Shan, Shan and Lankau, Richard and Sol{\'\i}s-Lemus, Claudia},
+  journal={BMC bioinformatics},
+  volume={25},
+  number={1},
+  pages={366},
+  year={2024},
+  publisher={Springer}
+}
+
 @article{aghdam2024,
   year = {2024},
   publisher = {In process},
