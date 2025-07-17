@@ -84,10 +84,12 @@ If you use CMIMN in your work, we kindly ask that you cite the following paper:
   year={2025},
   publisher={Cold Spring Harbor Laboratory}
 }
-@article{aghdam2024cminet,
-  title={CMiNet: R package for learning the Consensus Microbiome Network},
-  author={Aghdam, Rosa and Solis-Lemus, Claudia},
-  journal={arXiv preprint arXiv:2411.08309},
-  year={2024}
-} 
+@article{aghdam2025cminet,
+  title={CMiNet: An R Package and User-Friendly Shiny App for Constructing Consensus Microbiome Networks},
+  author={Aghdam, Rosa and Sol{\'\i}s-Lemus, Claudia},
+  journal={bioRxiv},
+  pages={2025--05},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
