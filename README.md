@@ -50,6 +50,16 @@ The function returns a list with the following components:
 ```bash CMIMN
 result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ```
+
+### Note on compositionality
+By default, `conditional_MI(data, quantitative = TRUE)` applies a log transformation to abundance data.  
+However, log transformation does not fully correct for the compositional nature of microbiome data.  
+Users who wish to explicitly handle compositionality can preprocess their data with a CLR (centered log-ratio) transformation and run:
+
+```r
+clr_data <- clr(abundance_matrix + 1)  # add pseudo-count if needed
+result <- conditional_MI(clr_data, q1 = 0.7, q2 = 0.95, quantitative = FALSE)
+```
 ## Reporting Issues and Asking Questions
 
 If you encounter a bug, experience a failed function, or have a feature request, please open an issue in the GitHub [issue tracker](https://github.com/solislemuslab/CMIMN/issues). 
