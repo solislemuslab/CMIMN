@@ -46,11 +46,14 @@ clr_data <- clr(toy_data + 1)   # add pseudo-count
 ## 4. Run CMIMN
 ###Run CMIMN  on  **CLR-transformed** data
 
+```R
 result <- conditional_MI(clr_data, q1 = 0.7, q2 = 0.95, quantitative = FALSE)
+```
 
 ###Run CMIMN  on  **log-transformed** data
+```R
 result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
-
+```
 
 # View adjacency matrix
 result$adjacency
