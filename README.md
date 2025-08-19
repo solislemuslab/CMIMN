@@ -25,7 +25,7 @@ We use the American Gut data from [SpiecEasi package](https://github.com/zdk123/
 First, load CMIMN and the American Gut Project data (included with the [SpiecEasi package](https://github.com/zdk123/SpiecEasi)), which is automatically loaded alongside CMIMN).
 The CMIMN package requires as input a numeric matrix with taxa in rows and samples in columns. Each cell of the matrix represents the abundance of a given taxon in a specific sample, either as raw counts or appropriately transformed values.
 
-```bash
+```R
 library(CMIMN)
 data = amgut1.filt
 ```
@@ -51,7 +51,7 @@ The function returns a list with the following components:
 - sum_order1: The sum of edges in the order 1 adjacency matrix.
 
 ## Example 
-```bash CMIMN
+```R
 result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
 ```
 
