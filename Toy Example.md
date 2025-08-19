@@ -73,14 +73,9 @@ result$G_order1
 ---
 
 ## 6. Tips
-
+- Always set a random seed (set.seed()) before running CMIMN.
 - Always add a **pseudo-count** to avoid log(0).  
-- For real microbiome data, apply appropriate normalization before CLR.  
-- Use **synthetic or toy datasets** first to confirm reproducibility.
-
+- For real microbiome data, apply appropriate normalization/filtering before CLR.  
+- Consider running bootstrap replicates for robust edges.
 ---
 
-## References
-
-- Friedman & Alm (2012) *PLoS Comput Biol* – network benchmarking  
-- Kurtz et al. (2015) *PNAS* – compositional methods in microbiome networks
