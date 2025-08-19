@@ -36,8 +36,8 @@ data = amgut1.filt
 
 | Parameter      | Meaning                                   | Typical Range | Notes                                                 |
 | -------------- | ----------------------------------------- | ------------- | ----------------------------------------------------- |
-| `q1`           | Threshold for pairwise mutual information | 0.6 – 0.8     | Higher values retain only stronger associations       |
-| `q2`           | Threshold for conditional independence    | 0.9 – 0.95    | Higher values result in sparser networks              |
+| `q1`           | Threshold for pairwise mutual information | 0.7 – 0.85     | Higher values retain only stronger associations       |
+| `q2`           | Threshold for conditional independence    | 0.85 – 0.95    | Higher values result in sparser networks              |
 | `quantitative` | If TRUE, log-transform abundances         | TRUE/FALSE    | Use FALSE if data is already preprocessed (e.g., CLR) |
 
 
