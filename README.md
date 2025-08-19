@@ -57,7 +57,9 @@ However, log transformation does not fully correct for the compositional nature 
 Users who wish to explicitly handle compositionality can preprocess their data with a CLR (centered log-ratio) transformation and run:
 
 ```r
-clr_data <- clr(abundance_matrix )  # add pseudo-count if needed
+library(compositions)
+# add pseudo-count to avoid log(0)
+clr_data <- clr(data + 1e-6)
 result <- conditional_MI(clr_data, q1 = 0.7, q2 = 0.95, quantitative = FALSE)
 ```
 ## Reporting Issues and Asking Questions
