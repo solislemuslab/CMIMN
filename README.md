@@ -34,6 +34,13 @@ data = amgut1.filt
 - q2: A numeric value representing the quantile threshold for filtering edges in the order 1 adjacency matrix.
 - quantitative: A logical value indicating if the data is quantitative. If TRUE, the data is log-transformed.
 
+| Parameter      | Meaning                                   | Typical Range | Notes                                                 |
+| -------------- | ----------------------------------------- | ------------- | ----------------------------------------------------- |
+| `q1`           | Threshold for pairwise mutual information | 0.6 – 0.8     | Higher values retain only stronger associations       |
+| `q2`           | Threshold for conditional independence    | 0.9 – 0.95    | Higher values result in sparser networks              |
+| `quantitative` | If TRUE, log-transform abundances         | TRUE/FALSE    | Use FALSE if data is already preprocessed (e.g., CLR) |
+
+
 ### Return Value
 The function returns a list with the following components:
 
