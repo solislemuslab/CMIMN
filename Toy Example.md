@@ -34,9 +34,6 @@ toy_data
 ## 3. Apply CLR Transformation
 
 CMIMN can be run on **log-transformed** or **CLR-transformed** data.  
-Here we show **three options**:
-
-###**CLR-transformed** data Using `compositions` package
 
 ```R
 toy_data <- as.matrix(toy_data)
@@ -47,10 +44,13 @@ clr_data <- clr(toy_data + 1)   # add pseudo-count
 ---
 
 ## 4. Run CMIMN
+###Run CMIMN  on  **CLR-transformed** data
 
-```R
-# Example run with default thresholds
 result <- conditional_MI(clr_data, q1 = 0.7, q2 = 0.95, quantitative = FALSE)
+
+###Run CMIMN  on  **log-transformed** data
+result <- conditional_MI( data ,q1 = 0.7, q2 = 0.95,quantitative = TRUE)
+
 
 # View adjacency matrix
 result$adjacency
