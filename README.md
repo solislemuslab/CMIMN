@@ -23,6 +23,8 @@ devtools::install_github("solislemuslab/CMIMN")
 ### loading the Data
 We use the American Gut data from [SpiecEasi package](https://github.com/zdk123/SpiecEasi) to run CMiNet algorithm to construct consensus microbiome network. 
 First, load CMIMN and the American Gut Project data (included with the [SpiecEasi package](https://github.com/zdk123/SpiecEasi)), which is automatically loaded alongside CMIMN).
+
+### Input of CMIMN
 The CMIMN package requires as input a numeric matrix with taxa in rows and samples in columns. Each cell of the matrix represents the abundance of a given taxon in a specific sample, either as raw counts or appropriately transformed values.
 
 ```R
