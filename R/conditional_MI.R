@@ -3,7 +3,7 @@
 #' Constructs a network using conditional mutual information (CMI) to identify relationships between taxa in microbiome network.
 #' The function applies two levels of CMI computation, using quantile thresholds to filter edges in the resulting adjacency matrices.
 #'
-#' @param data A numeric matrix where rows represent taxa and columns represent samples. If \code{quantitative} is TRUE, data will be log-transformed.
+#' @param The input microbiome abundance matrix, where rows represent samples and columns represent taxa. If \code{quantitative} is TRUE, data will be log-transformed.
 #' @param q1 A numeric value representing the quantile threshold for filtering edges in the order 0 adjacency matrix.
 #' @param q2 A numeric value representing the quantile threshold for filtering edges in the order 1 adjacency matrix.
 #' @param quantitative A logical value indicating if the data is quantitative. If TRUE, data is log-transformed.
